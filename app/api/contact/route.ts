@@ -44,7 +44,7 @@ export async function POST(request: Request) {
   const webhookUrl = process.env.CONTACT_FORM_WEBHOOK_URL;
   if (!webhookUrl) {
     return NextResponse.json(
-      { message: "Online submission is not configured yet. Please email info@interlinkintl.com for immediate assistance." },
+      { message: "Online submission is not configured yet. Please email contact@interlink-om.com for immediate assistance." },
       { status: 503 },
     );
   }

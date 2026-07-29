@@ -4,7 +4,7 @@ export const siteConfig = {
   description:
     "Connecting global opportunities with local expertise to deliver sustainable value and long-term impact.",
   contact: {
-    email: "info@interlinkintl.com",
+    email: "contact@interlink-om.com",
     location: "Muscat, Sultanate of Oman",
     // TODO: Add the verified public telephone number when supplied by Interlink.
     phone: null as string | null,
@@ -13,7 +13,7 @@ export const siteConfig = {
   navigation: [
     { label: "Home", href: "/" },
     { label: "Services", href: "/services" },
-    { label: "Our Network", href: "/#network" },
+    { label: "Our Partners", href: "/our-network" },
     { label: "News & Media", href: "/news-media" },
     { label: "About Us", href: "/about" },
     { label: "Contact", href: "/contact" },
@@ -33,8 +33,7 @@ export const siteConfig = {
     ],
     resources: [
       { label: "News & Media", href: "/news-media" },
-      { label: "Our Network", href: "/#network" },
-      { label: "STOPLOSS®", href: "/#stoploss" },
+      { label: "Our Partners", href: "/our-network" },
       { label: "Request Consultation", href: "/contact" },
     ],
   },

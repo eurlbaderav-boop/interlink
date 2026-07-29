@@ -25,8 +25,8 @@ export default function SiteHeader() {
   }, [pathname]);
 
   const isActive = (href: string) => {
-    if (href === "/#network") return pathname === "/" && currentHash === "#network";
-    if (href === "/") return pathname === "/" && currentHash !== "#network";
+    if (href === "/") return pathname === "/" && currentHash === "";
+    if (href === "/our-network") return pathname === "/our-network" || pathname.startsWith("/our-network/");
     if (href === "/about") return pathname === "/about";
     if (href === "/contact") return pathname === "/contact";
     if (href === "/services") return pathname === "/services";
